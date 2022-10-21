@@ -3,7 +3,7 @@ public class Operator{
     public static void main(String args[]){
 
         Scanner nu = new Scanner(System.in);
-        System.out.print("Enter the First and the Second numbers: ");
+        System.out.print("Enter the First and the Second number: ");
 
         int a = nu.nextInt();
         int b = nu.nextInt();
