@@ -8,7 +8,7 @@ public class Operator{
         int a = nu.nextInt();
         int b = nu.nextInt();
 
-        System.out.print("Choose and Enter the type of operation you want to perform (+, -, *, /, %) -");
+        System.out.print("Choose and Enter the type of operation you want to perform (+, -, *, /, %) : ");
         char op = nu.next().charAt(0);
         solve(a, b, op);
 
