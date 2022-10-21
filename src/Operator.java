@@ -32,8 +32,10 @@ public class Operator{
             ans = a % b;
             //division
         } else if (op == '/') {
-            ans = a / b;
-        }
+            if(b != 0){
+                ans = a/b;
+            }
+        
         //Print the final result
         System.out.println("Your answer is: " + ans);
         return ans;
